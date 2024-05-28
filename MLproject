@@ -1,0 +1,8 @@
+name: breast-cancer-docker-example
+
+docker_env:
+    image: mlflow-breast-cancer-docker-example
+
+entry_points:
+    main:
+        command: "python train_copy.py"
