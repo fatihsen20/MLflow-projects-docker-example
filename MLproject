@@ -2,6 +2,8 @@ name: breast-cancer-docker-example
 
 docker_env:
     image: mlflow-breast-cancer-docker-example
+    build:
+        dockerfile: Dockerfile
 
 entry_points:
     main:
